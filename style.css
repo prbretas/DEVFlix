@@ -12,8 +12,10 @@ body {
   background-image: url(https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+  }
+
 header {
+  
 }
 
 hr {
@@ -25,17 +27,15 @@ hr {
 }
 nav {
   background-color: rgba(0, 0, 0, 0.452);
-  filter: drop-shadow(0 0 5px black);
   top: 0;
   right: 0;
   left: 0;
   height: 80px;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
   align-content: center;
-  position: fixed;
+
 }
 
 .Div1 {
@@ -53,7 +53,6 @@ a {
 .LogoHeader {
   color: red;
   margin: 0 0 0 40px;
-  font-size: 2rem;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -83,7 +82,7 @@ a {
   margin: 0;
   padding: 0;
   height: 80vh;
-  margin-top: 80px;
+
 }
 
 .Body {
@@ -94,11 +93,9 @@ a {
 .DivMainText {
 }
 .MainH1 {
-  font-size: 1.8rem;
   font-family: arial;
   text-align: center;
   color: white;
-
   padding-top: 100px;
 }
 
@@ -373,3 +370,86 @@ margin-top: 15px;
 .itemFooter:hover{
     color: white;
 }
+
+/************MEDIA QUERY**********/
+
+
+
+@media screen and (min-width: 400px) {
+ 
+
+    .MainH1 {
+      font-size: 1.8rem;
+      font-family: arial;
+      text-align: center;
+      color: white;
+      padding-top: 100px;
+    }
+
+
+    .LogoHeader {
+    font-size: 2rem;
+     
+
+}
+
+
+
+.BtnEntrar {
+ font-size: 0.9rem;
+  border-radius: 3px;
+  width: 55px;
+  height: 25px;
+  margin: 0 10px;
+}
+
+
+.Div2 {
+  margin:10px ;
+
+}
+
+
+#Idioma {
+
+
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+  
+    .MainH1 {
+      font-size: 3rem;
+    }
+    
+    .LogoHeader {
+      font-size: 3rem;
+       
+  
+  }
+
+  #Idioma {
+
+
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+  .Div2 {
+    margin:50px ;
+  
+  }
+  .BtnEntrar {
+  
+    font-size: 1rem;
+    border-radius: 3px;
+  
+    width: 80px;
+    height: 30px;
+    margin: 0 10px;
+  }
+
+
+ }
