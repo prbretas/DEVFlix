@@ -149,33 +149,7 @@ background-color: rgba(0, 0, 0, 0.527);
 
 
 
-/*********************  FOOTER  ****************************************/
 
-.Footer {
-  background-color: rgb(0, 0, 0);
-  width: 100vw;
-  height: 300px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: top;
-  flex-wrap: wrap;
-}
-
-.divUl {
-  margin-top: 50px;
-  width: 200px;
-}
-
-.itemFooter {
-  list-style: none;
-  padding-top: 10px;
-  color: rgb(141, 141, 141);
-  margin-top: 15px;
-}
-
-.itemFooter:hover {
-  color: white;
-}
 
 /************MEDIA QUERY**********/
 
@@ -249,7 +223,7 @@ padding: 60px 10px 100px;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    padding-top:30px;
+    padding-top:10px;
   }
   
   .DivText2 {
@@ -298,6 +272,8 @@ padding: 60px 10px 100px;
 
 
 .Div3Section3 {
+  padding-top: 40px;
+  margin-bottom: 40px;
   background-color: rgba(178, 148, 206, 0);
   display: flex;
   flex-direction: row;
@@ -306,12 +282,67 @@ padding: 60px 10px 100px;
   flex-wrap: wrap-reverse;
   width: 100vw;
 }
-  
+
+.DivLista{
+  margin-top: 30px;
+
+}
+
+.itensVantagens{
+ background-color: rgb(63, 63, 63); 
+ color: rgb(197, 197, 197);
+ font-size: 1rem;
+ list-style: none;
+ padding: 5px 20px;
+ text-align: center;
+ margin-bottom: 10px;
+
+}
+
+.itensVantagens:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 46, 46); 
+ }
+
+/*********************  FOOTER  ****************************************/
+
+.Footer {
+
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-wrap: wrap;
+}
+
+.divUl {
+
+  margin: 10px;
+  width: 200px;
+}
+
+.itemFooter {
+  list-style: none;
+  padding-top: 10px;
+  color: rgb(141, 141, 141);
+  margin-top: 15px;
+}
+
+.itemFooter:hover {
+  color: white;
+}
+
+ .InfoFooter{
+color: rgb(235, 235, 235);
+text-align: center;
+margin: 50px 0;
+
+ }
 
 }
 
 
-/*********** MIN WIDTH 800PX TABLET********************/
+/********************************** MIN WIDTH 800PX TABLET**********************************/
 
 @media screen and (min-width: 600px) {
   .Section1{
@@ -399,7 +430,7 @@ padding: 60px 10px 100px;
 }
 
 
-/*****************************************/
+/*****80px************************************/
 .Section3 {
   background-color: rgba(255, 72, 0, 0);
   display: flex;
@@ -426,7 +457,7 @@ padding: 60px 10px 100px;
 
 .itensVantagens{
   background-color: rgb(63, 63, 63); 
-  color: white;
+  color: rgb(197, 197, 197);
   font-size: 2rem;
   list-style: none;
 
@@ -436,4 +467,17 @@ padding: 60px 10px 100px;
 
 }
 
+
+ .itensVantagens:hover{
+   color: rgb(255, 255, 255);
+   background-color: rgb(46, 46, 46); 
+  }
+
+
+  .InfoFooter{
+    color: white;
+    text-align: center;
+      
+     }
+    
 }
