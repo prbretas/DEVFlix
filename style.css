@@ -6,15 +6,13 @@
 
 body {
   height: 100vh;
-  background-color: #000000;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 
-  background-image: url(https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 header {
+  
 }
 
 hr {
@@ -22,10 +20,11 @@ hr {
   background-color: rgb(36, 36, 36);
   border: rgb(26, 26, 26);
   margin: 0;
-  padding: 0;
+
 }
 nav {
-  background-color: rgba(0, 0, 0, 0.452);
+  background-color: rgba(0, 0, 0, 0.699);
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -34,9 +33,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   align-content: center;
-}
-
-.Div1 {
 }
 
 .Div2 {
@@ -78,30 +74,38 @@ a {
 
 .Section1 {
   margin: 0;
+  margin-top: 80px;
   padding: 0;
-  height: 80vh;
+  padding-bottom: 300px;
+   
 }
 
 .Body {
   background-color: rgba(0, 0, 0, 0.452);
   height: 100vh;
+  background-image: url(https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .DivMainText {
 }
+
 .MainH1 {
   font-family: arial;
   text-align: center;
   color: white;
   padding-top: 100px;
+  text-shadow: 0 0 1px black;
 }
 
 .MainP {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-family: arial;
   text-align: center;
   color: white;
-
+ font-weight: 200 ;
   padding: 10px;
 }
 
@@ -111,6 +115,7 @@ a {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  
 }
 
 #Email {
@@ -118,6 +123,7 @@ a {
   height: 50px;
   min-width: 400px;
   max-width: 500px;
+
 }
 
 .BtnVamosLa {
@@ -134,18 +140,13 @@ a {
   padding: 10px 0 10px;
 }
 
-.Section3 {
-  background-color: rgb(59, 0, 0);
-  width: 100vw;
-  height: 100vh;
-}
+
 
 /*****************SECTION2***********************/
 /*CORRIGIR MEDIA QUERY*/
 .Section2 {
   background-color: rgb(0, 0, 0);
   width: 100vw;
-  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -167,7 +168,7 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
-  padding-left: 30px;
+ 
 }
 
 .DivSection2 p {
@@ -181,147 +182,11 @@ a {
 }
 
 .ImgSection2 {
-  width: 450px;
-  margin: 30px;
+  width: 400px;
+  margin: 30px auto;
 }
 
-/****************** SECTION 3 ************************/
 
-.Section3 {
-  background-color: rgb(0, 0, 0);
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap-reverse;
-  margin-top: 30px;
-}
-
-.DivSection3 {
-  background-color: rgb(0, 0, 0);
-  min-width: 450px;
-  max-width: 500px;
-  height: 200px;
-  text-align: left;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-
-.DivSection3 h2 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3.5rem;
-  font-weight: 700;
-  padding-left: 30px;
-}
-
-.DivSection3 p {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  padding: 0px 30px;
-}
-
-.DivImgSection3 {
-}
-
-.ImgSection3 {
-  width: 450px;
-}
-
-/***************** SECTION4  ***********************/
-/*CORRIGIR MEDIA QUERY*/
-.Section4 {
-  background-color: rgb(0, 0, 0);
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.DivSection4 {
-  width: 500px;
-  height: 300px;
-  text-align: left;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  padding-top: 30px;
-}
-
-.DivSection4 h2 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3.5rem;
-  font-weight: 700;
-  padding-left: 30px;
-}
-
-.DivSection4 p {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  padding: 0px 30px;
-}
-
-.DivImgSection4 {
-}
-
-.ImgSection4 {
-  width: 450px;
-  margin: 30px;
-  padding: 40px;
-}
-
-/****************** SECTION 5 ************************/
-
-.Section5 {
-  background-color: rgb(0, 0, 0);
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap-reverse;
-  margin-top: 30px;
-}
-
-.DivSection5 {
-  background-color: rgb(0, 0, 0);
-  min-width: 450px;
-  max-width: 500px;
-  height: 200px;
-  text-align: left;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-
-.DivSection5 h2 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3.5rem;
-  font-weight: 700;
-  padding-left: 30px;
-}
-
-.DivSection5 p {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  padding: 0px 30px;
-}
-
-.DivImgSection5 {
-}
-
-.ImgSection5 {
-  width: 450px;
-}
 
 /*********************  FOOTER  ****************************************/
 
@@ -360,6 +225,11 @@ a {
   
 }
 
+.Section2 {
+  min-height: 75vh;
+
+
+}
 
 
   .MainH1 {
@@ -368,6 +238,11 @@ a {
     text-align: center;
     color: white;
     padding-top: 60px;
+
+  }
+
+  .MainP {
+    font-size: 1.2rem;
 
   }
 
@@ -395,14 +270,33 @@ a {
 
   .BtnVamosLa {
     margin: 0;
-    font-display: ;
-      
+         
     width: 120px;
-    height: 40px;
+    height: 50px;
   
-    margin: 0;
+    margin-top: 5px;
     padding: 10px 0 10px;
   }
+
+
+
+  .DivSection2 h2 {
+  
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+  
+.DivSection2 p {
+ 
+  font-size: 1.3rem;
+  text-align: center;
+
+}
+
+
+
+
 }
 
 
@@ -417,9 +311,19 @@ a {
     
   }
 
+  .Section2 {
+
+
+  }
+
+
   .MainH1 {
     font-size: 3rem;
     padding-top: 150px;
+  }
+
+  .MainP {
+    font-size: 1.4rem;
   }
 
   .LogoHeader {
@@ -447,4 +351,19 @@ a {
     width: 100px;
     height: 50px;
   }
+
+  .DivSection2 h2 {
+  
+    font-size: 3.5rem;
+    text-align: center;
+    
+  }
+
+  .DivSection2 p {
+ 
+    font-size: 1.5rem;
+    text-align: left;
+  
+  }
+
 }
