@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +7,11 @@
 }
 
 body {
-  height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
 
 }
 
-header {
-  
-}
 
 hr {
   height: 10px;
@@ -23,7 +21,7 @@ hr {
 
 }
 nav {
-  background-color: rgba(0, 0, 0, 0.699);
+  background-color: rgb(0, 0, 0);
   position: fixed;
   top: 0;
   right: 0;
@@ -76,17 +74,22 @@ a {
   margin: 0;
   margin-top: 80px;
   padding: 0;
-  padding-bottom: 300px;
+
    
 }
 
-.Body {
+.Div1Body {
   background-color: rgba(0, 0, 0, 0.452);
-  height: 100vh;
   background-image: url(https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.DivMain{
+background-color: rgba(0, 0, 0, 0.527);
+
+
 }
 
 .DivMainText {
@@ -96,8 +99,7 @@ a {
   font-family: arial;
   text-align: center;
   color: white;
-  padding-top: 100px;
-  text-shadow: 0 0 1px black;
+   text-shadow: 0 0 1px black;
 }
 
 .MainP {
@@ -105,7 +107,7 @@ a {
   font-family: arial;
   text-align: center;
   color: white;
- font-weight: 200 ;
+  font-weight: 200 ;
   padding: 10px;
 }
 
@@ -143,48 +145,7 @@ a {
 
 
 /*****************SECTION2***********************/
-/*CORRIGIR MEDIA QUERY*/
-.Section2 {
-  background-color: rgb(0, 0, 0);
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
 
-.DivSection2 {
-  width: 500px;
-  height: 300px;
-  text-align: left;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  padding-top: 30px;
-}
-
-.DivSection2 h2 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3.5rem;
-  font-weight: 700;
- 
-}
-
-.DivSection2 p {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  padding: 0px 30px;
-}
-
-.DivImgSection2 {
-}
-
-.ImgSection2 {
-  width: 400px;
-  margin: 30px auto;
-}
 
 
 
@@ -220,25 +181,22 @@ a {
 
 /******* MIN WIDTH 400PX IPHONE, SMARTPHONE************/
 @media screen and (min-width: 400px) {
+
+  
 .Section1{
   height: 75vh;
   
 }
 
-.Section2 {
-  min-height: 75vh;
-
+.DivMain{
+padding: 60px 10px 100px;
 
 }
-
-
   .MainH1 {
     font-size: 1.8rem;
     font-family: arial;
     text-align: center;
     color: white;
-    padding-top: 60px;
-
   }
 
   .MainP {
@@ -279,32 +237,60 @@ a {
   }
 
 
+/*****************************************/
 
-  .DivSection2 h2 {
-  
-    font-size: 2rem;
-    text-align: center;
-    
+  .Section2 {
+    background-color: rgba(201, 52, 52, 0);
+    margin: 30px 0;
+
+  }
+  .Div2Section2{
+    background-color: rgba(178, 148, 206, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-top:30px;
   }
   
-.DivSection2 p {
- 
-  font-size: 1.3rem;
-  text-align: center;
+  .DivText2 {
+    background-color: rgba(255, 208, 208, 0);
+    width: 400px;
+    padding: 20px 0;
+   
+   }
+  
+  .DivText2 h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+   
+  }
+  
+  .DivText2 p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+
+  
+  }
+  
+  .DivImgSection2 {
+    background-color: rgba(255, 255, 0, 0);
+    margin:40px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .ImgSection2 {
+    width: 400px;
+  }
+  
 
 }
-
-.ImgSection2 {
-  width: 400px;
-  margin: 30px auto;
-}
-
-
-
-
-}
-
-
 
 
 
@@ -316,12 +302,7 @@ a {
     
   }
 
-  .Section2 {
-
-
-  }
-
-
+ 
   .MainH1 {
     font-size: 3rem;
     padding-top: 150px;
@@ -357,23 +338,46 @@ a {
     height: 50px;
   }
 
-  .DivSection2 h2 {
+/**********************************/
   
-    font-size: 3.5rem;
-    text-align: center;
-    
-  }
+.Section2 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+ justify-content: center;
+  padding: 50px 20px;
+  margin: 40px 0;
+}
+.Div2Section2{
+  background-color: rgba(178, 148, 206, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100vw;
+}
 
-  .DivSection2 p {
+.DivText2 {
+  background-color: rgba(148, 206, 165, 0);
+  padding: 30px 0;
+  margin-bottom: 30px;
+  
+}
+
+.DivText2 h2 {
+  font-size: 3.5rem;
+
  
-    font-size: 1.5rem;
-    text-align: left;
-  
-  }
+}
 
-  .ImgSection2 {
-    width: 500px;
-    margin: 30px auto;
-  }
+.DivText2 p {
+  font-size: 1.5rem;
+}
+
+.DivImgSection2 {
+  background-color: rgba(255, 255, 0, 0);
+  
+}
+
 
 }
