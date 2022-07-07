@@ -237,7 +237,7 @@ padding: 60px 10px 100px;
   }
 
 
-/*****************************************/
+/***************************400px**************/
 
   .Section2 {
     background-color: rgba(201, 52, 52, 0);
@@ -263,7 +263,7 @@ padding: 60px 10px 100px;
   .DivText2 h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: 700;
    
@@ -288,10 +288,28 @@ padding: 60px 10px 100px;
   .ImgSection2 {
     width: 400px;
   }
+
+
+  
+.Section3 {
+  background-color: rgba(197, 63, 10, 0);
+  display: flex;
+    align-items: center;
+ }
+
+
+.Div3Section3 {
+  background-color: rgba(178, 148, 206, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  width: 100vw;
+}
   
 
 }
-
 
 
 /*********** MIN WIDTH 800PX TABLET********************/
@@ -338,7 +356,7 @@ padding: 60px 10px 100px;
     height: 50px;
   }
 
-/**********************************/
+/*******************800PX***************/
   
 .Section2 {
   background-color: rgb(0, 0, 0);
@@ -347,7 +365,7 @@ padding: 60px 10px 100px;
   padding: 50px 20px;
   margin: 40px 0;
 }
-.Div2Section2{
+.Div2Section2 {
   background-color: rgba(178, 148, 206, 0);
   display: flex;
   flex-direction: row;
@@ -357,10 +375,12 @@ padding: 60px 10px 100px;
   width: 100vw;
 }
 
+
 .DivText2 {
   background-color: rgba(148, 206, 165, 0);
   padding: 30px 0;
   margin-bottom: 30px;
+  width: 500px;
   
 }
 
@@ -379,5 +399,25 @@ padding: 60px 10px 100px;
   
 }
 
+
+/*****************************************/
+.Section3 {
+  background-color: rgba(255, 72, 0, 0);
+  display: flex;
+ justify-content: center;
+  padding: 50px 20px;
+ }
+
+
+.Div3Section3 {
+  background-color: rgba(178, 148, 206, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  width: 100vw;
+
+}
 
 }
