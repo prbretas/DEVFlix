@@ -12,10 +12,9 @@ body {
   background-image: url(https://pipocasclub.com.br/wp-content/uploads/2019/10/netflix-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
 header {
-  
 }
 
 hr {
@@ -35,7 +34,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   align-content: center;
-
 }
 
 .Div1 {
@@ -82,7 +80,6 @@ a {
   margin: 0;
   padding: 0;
   height: 80vh;
-
 }
 
 .Body {
@@ -117,6 +114,7 @@ a {
 }
 
 #Email {
+
   height: 50px;
   min-width: 400px;
   max-width: 500px;
@@ -130,8 +128,9 @@ a {
   border-radius: 3px;
 
   width: 100px;
+  height: 50px;
 
-  margin: 0 10px;
+  margin: 0;
   padding: 10px 0 10px;
 }
 
@@ -151,7 +150,6 @@ a {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-
 }
 
 .DivSection2 {
@@ -180,27 +178,24 @@ a {
 }
 
 .DivImgSection2 {
-
 }
 
 .ImgSection2 {
   width: 450px;
   margin: 30px;
-
 }
 
 /****************** SECTION 3 ************************/
 
 .Section3 {
-    background-color: rgb(0, 0, 0);
-    width: 100vw;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
-    margin-top: 30px;
-  
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  margin-top: 30px;
 }
 
 .DivSection3 {
@@ -230,80 +225,69 @@ a {
 }
 
 .DivImgSection3 {
-
 }
 
 .ImgSection3 {
   width: 450px;
 }
 
-
-
 /***************** SECTION4  ***********************/
 /*CORRIGIR MEDIA QUERY*/
 .Section4 {
-    background-color: rgb(0, 0, 0);
-    width: 100vw;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  
-  }
-  
-  .DivSection4 {
-    width: 500px;
-    height: 300px;
-    text-align: left;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    padding-top: 30px;
-  }
-  
-  .DivSection4 h2 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
-    font-weight: 700;
-    padding-left: 30px;
-  }
-  
-  .DivSection4 p {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    padding: 0px 30px;
-  }
-  
-  .DivImgSection4 {
- 
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 
-  }
-  
-  .ImgSection4 {
-    width: 450px;
-    margin: 30px;
-    padding: 40px;
-  }
+.DivSection4 {
+  width: 500px;
+  height: 300px;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-top: 30px;
+}
 
+.DivSection4 h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-left: 30px;
+}
 
+.DivSection4 p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding: 0px 30px;
+}
 
+.DivImgSection4 {
+}
 
+.ImgSection4 {
+  width: 450px;
+  margin: 30px;
+  padding: 40px;
+}
 
-  /****************** SECTION 5 ************************/
+/****************** SECTION 5 ************************/
 
 .Section5 {
-    background-color: rgb(0, 0, 0);
-    width: 100vw;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap-reverse;
-    margin-top: 30px;
-  
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  margin-top: 30px;
 }
 
 .DivSection5 {
@@ -333,7 +317,6 @@ a {
 }
 
 .DivImgSection5 {
-
 }
 
 .ImgSection5 {
@@ -342,114 +325,126 @@ a {
 
 /*********************  FOOTER  ****************************************/
 
-.Footer{
-    background-color: rgb(0, 0, 0);
-    width: 100vw;
-    height: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: top;
-    flex-wrap: wrap;
-
+.Footer {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-wrap: wrap;
 }
 
-.divUl{
-    margin-top: 50px;
-    width: 200px;
-    
-
+.divUl {
+  margin-top: 50px;
+  width: 200px;
 }
 
-.itemFooter{
-list-style: none;
-padding-top: 10px;
-color: rgb(141, 141, 141);
-margin-top: 15px;
+.itemFooter {
+  list-style: none;
+  padding-top: 10px;
+  color: rgb(141, 141, 141);
+  margin-top: 15px;
 }
 
-.itemFooter:hover{
-    color: white;
+.itemFooter:hover {
+  color: white;
 }
 
 /************MEDIA QUERY**********/
 
-
-
+/******* MIN WIDTH 400PX IPHONE, SMARTPHONE************/
 @media screen and (min-width: 400px) {
- 
-
-    .MainH1 {
-      font-size: 1.8rem;
-      font-family: arial;
-      text-align: center;
-      color: white;
-      padding-top: 100px;
-    }
+.Section1{
+  height: 75vh;
+  
+}
 
 
-    .LogoHeader {
+
+  .MainH1 {
+    font-size: 1.8rem;
+    font-family: arial;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+
+  }
+
+  .LogoHeader {
     font-size: 2rem;
-     
+  }
 
-}
+  .BtnEntrar {
+    font-size: 0.9rem;
+    border-radius: 3px;
+    width: 55px;
+    height: 25px;
+    margin: 0 10px;
+  }
 
-
-
-.BtnEntrar {
- font-size: 0.9rem;
-  border-radius: 3px;
-  width: 55px;
-  height: 25px;
-  margin: 0 10px;
-}
-
-
-.Div2 {
-  margin:10px ;
-
-}
-
-
-#Idioma {
-
-
-  font-size: 0.8rem;
-  padding: 5px 10px;
-}
-
-}
-
-@media screen and (min-width: 800px) {
-  
-    .MainH1 {
-      font-size: 3rem;
-    }
-    
-    .LogoHeader {
-      font-size: 3rem;
-       
-  
+  .Div2 {
+    margin: 10px;
   }
 
   #Idioma {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
 
 
+  .BtnVamosLa {
+    margin: 0;
+    font-display: ;
+      
+    width: 120px;
+    height: 40px;
+  
+    margin: 0;
+    padding: 10px 0 10px;
+  }
+}
+
+
+
+
+
+/*********** MIN WIDTH 800PX TABLET********************/
+
+@media screen and (min-width: 600px) {
+  .Section1{
+    height: 100vh;
+    
+  }
+
+  .MainH1 {
+    font-size: 3rem;
+    padding-top: 150px;
+  }
+
+  .LogoHeader {
+    font-size: 3rem;
+    margin-left: 55px;
+  }
+
+  #Idioma {
     font-size: 1rem;
     padding: 5px 10px;
   }
   .Div2 {
-    margin:50px ;
-  
+    margin: 50px;
   }
   .BtnEntrar {
-  
     font-size: 1rem;
-    border-radius: 3px;
-  
+
     width: 80px;
     height: 30px;
     margin: 0 10px;
   }
 
-
- }
+  .BtnVamosLa {
+    margin: 0;
+    width: 100px;
+    height: 50px;
+  }
+}
