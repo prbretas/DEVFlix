@@ -420,4 +420,21 @@ padding: 60px 10px 100px;
 
 }
 
+.DivLista{
+   margin-top: 30px;
+
+}
+
+.itensVantagens{
+  background-color: rgb(63, 63, 63); 
+  color: white;
+  font-size: 2rem;
+  list-style: none;
+
+  padding: 5px 20px;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
 }
