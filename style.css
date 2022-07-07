@@ -294,6 +294,11 @@ a {
 
 }
 
+.ImgSection2 {
+  width: 400px;
+  margin: 30px auto;
+}
+
 
 
 
@@ -364,6 +369,11 @@ a {
     font-size: 1.5rem;
     text-align: left;
   
+  }
+
+  .ImgSection2 {
+    width: 500px;
+    margin: 30px auto;
   }
 
 }
