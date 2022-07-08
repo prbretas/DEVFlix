@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -9,19 +7,17 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
-
 }
-
 
 hr {
   height: 10px;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(30, 30, 30);
   border: rgb(26, 26, 26);
   margin: 0;
-
 }
+
 nav {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.836);
   position: fixed;
   top: 0;
   right: 0;
@@ -41,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-/**********H1 no CABEÇALHO*****************/
+/**********CABEÇALHO*****************/
 .LogoHeader {
   color: red;
   margin: 0 0 0 40px;
@@ -54,28 +50,34 @@ a {
   color: white;
   font-size: 1rem;
   padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.BtnEntrar a {
+  color: white;
 }
 
 .BtnEntrar {
-  border: 0px;
   background-color: red;
-  color: white;
-  font-size: 1rem;
+  border: 0px;
   border-radius: 3px;
-
+  font-size: 1rem;
   width: 80px;
   height: 30px;
   margin: 0 10px;
+  text-decoration: none;
 }
 
+.BtnEntrar:hover {
+  background-color: rgb(180, 0, 0);
+
+}
 /**********************SECTION 1************************/
 
 .Section1 {
   margin: 0;
   margin-top: 80px;
   padding: 0;
-
-   
 }
 
 .Div1Body {
@@ -86,10 +88,8 @@ a {
   background-position: center;
 }
 
-.DivMain{
-background-color: rgba(0, 0, 0, 0.527);
-
-
+.DivMain {
+  background-color: rgba(0, 0, 0, 0.527);
 }
 
 .DivMainText {
@@ -100,7 +100,7 @@ background-color: rgba(0, 0, 0, 0.527);
   font-family: arial;
   text-align: center;
   color: white;
-   text-shadow: 0 0 1px black;
+  text-shadow: 0 0 1px black;
 }
 
 .MainP {
@@ -108,65 +108,27 @@ background-color: rgba(0, 0, 0, 0.527);
   font-family: arial;
   text-align: center;
   color: white;
-  font-weight: 200 ;
+  font-weight: 200;
   padding: 10px;
 }
 
-.DivBotoes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  
-}
-
 #Email {
-
   height: 50px;
   min-width: 400px;
   max-width: 500px;
-
 }
-
-.BtnVamosLa {
-  border: 0px;
-  background-color: red;
-  color: white;
-  font-size: 1rem;
-  border-radius: 3px;
-
-  width: 100px;
-  height: 50px;
-
-  margin: 0;
-  padding: 10px 0 10px;
-}
-
-
-
-/*****************SECTION2***********************/
-
-
-
-
-
 
 /************MEDIA QUERY**********/
 
 /******* MIN WIDTH 400PX IPHONE, SMARTPHONE************/
 @media screen and (min-width: 400px) {
+  .Section1 {
+    background-color: rgba(127, 255, 212, 0);
+  }
 
-  
-.Section1{
-  background-color: rgba(127, 255, 212, 0);
-
-}
-
-.DivMain{
-padding: 60px 10px 100px;
-
-}
+  .DivMain {
+    padding: 60px 10px 100px;
+  }
   .MainH1 {
     font-size: 1.8rem;
     font-family: arial;
@@ -176,11 +138,18 @@ padding: 60px 10px 100px;
 
   .MainP {
     font-size: 1.2rem;
-
   }
 
   .LogoHeader {
     font-size: 2rem;
+  }
+
+  .DivBotoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
   }
 
   .BtnEntrar {
@@ -200,159 +169,149 @@ padding: 60px 10px 100px;
     padding: 5px 10px;
   }
 
-
   .BtnVamosLa {
+    background-color: red;
+    color: white;
+    font-size: 1rem;
     margin: 0;
-         
+    border-radius: 3px;
+    border: 0;
     width: 120px;
     height: 50px;
-  
-    margin-top: 5px;
+    margin-top: 20px;
     padding: 10px 0 10px;
+
+  }
+  .BtnVamosLa:hover {
+    background-color: rgb(180, 0, 0);
+    
+
   }
 
-
-/***************************400px**************/
+  /***************************400px**************/
 
   .Section2 {
     background-color: rgba(201, 52, 52, 0);
     margin: 30px 0;
-
   }
-  .Div2Section2{
+  .Div2Section2 {
     background-color: rgba(178, 148, 206, 0);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    padding-top:10px;
+    padding-top: 10px;
   }
-  
+
   .DivText2 {
     background-color: rgba(255, 208, 208, 0);
     width: 400px;
     padding: 20px 0;
-   
-   }
-  
+  }
+
   .DivText2 h2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-align: center;
     font-weight: 700;
-   
   }
-  
+
   .DivText2 p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     text-align: center;
-
-  
   }
-  
+
   .DivImgSection2 {
     background-color: rgba(255, 255, 0, 0);
-    margin:40px 0;
+    margin: 40px 0;
     display: flex;
     justify-content: space-evenly;
   }
-  
+
   .ImgSection2 {
     width: 400px;
   }
 
-
-  
-.Section3 {
-  background-color: rgba(197, 63, 10, 0);
-  display: flex;
+  .Section3 {
+    background-color: rgba(197, 63, 10, 0);
+    display: flex;
     align-items: center;
- }
+  }
 
+  .Div3Section3 {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(178, 148, 206, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    width: 100vw;
+  }
 
-.Div3Section3 {
-  padding-top: 40px;
-  margin-bottom: 40px;
-  background-color: rgba(178, 148, 206, 0);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap-reverse;
-  width: 100vw;
+  .DivLista {
+    margin-top: 30px;
+  }
+
+  .itensVantagens {
+    background-color: rgb(63, 63, 63);
+    color: rgb(197, 197, 197);
+    font-size: 1rem;
+    list-style: none;
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .itensVantagens:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 46, 46);
+  }
+
+  /*********************  FOOTER  ****************************************/
+
+  .Footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    flex-wrap: wrap;
+  }
+
+  .divUl {
+    margin: 10px;
+    width: 200px;
+  }
+
+  .itemFooter {
+    list-style: none;
+    padding-top: 10px;
+    color: rgb(141, 141, 141);
+    margin-top: 15px;
+  }
+
+  .itemFooter:hover {
+    color: white;
+  }
+
+  .InfoFooter {
+    color: rgb(235, 235, 235);
+    text-align: center;
+    margin: 50px 0;
+  }
 }
-
-.DivLista{
-  margin-top: 30px;
-
-}
-
-.itensVantagens{
- background-color: rgb(63, 63, 63); 
- color: rgb(197, 197, 197);
- font-size: 1rem;
- list-style: none;
- padding: 5px 20px;
- text-align: center;
- margin-bottom: 10px;
-
-}
-
-.itensVantagens:hover{
-  color: rgb(255, 255, 255);
-  background-color: rgb(46, 46, 46); 
- }
-
-/*********************  FOOTER  ****************************************/
-
-.Footer {
-
-  width: 100vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: top;
-  flex-wrap: wrap;
-}
-
-.divUl {
-
-  margin: 10px;
-  width: 200px;
-}
-
-.itemFooter {
-  list-style: none;
-  padding-top: 10px;
-  color: rgb(141, 141, 141);
-  margin-top: 15px;
-}
-
-.itemFooter:hover {
-  color: white;
-}
-
- .InfoFooter{
-color: rgb(235, 235, 235);
-text-align: center;
-margin: 50px 0;
-
- }
-
-}
-
 
 /********************************** MIN WIDTH 800PX TABLET**********************************/
 
 @media screen and (min-width: 600px) {
-  .Section1{
+  .Section1 {
     height: 100vh;
-    
   }
 
- 
   .MainH1 {
     font-size: 3rem;
     padding-top: 150px;
@@ -382,104 +341,98 @@ margin: 50px 0;
     margin: 0 10px;
   }
 
+  .DivBotoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
   .BtnVamosLa {
     margin: 0;
     width: 100px;
     height: 50px;
   }
 
-/*******************800PX***************/
-  
-.Section2 {
-  background-color: rgb(0, 0, 0);
-  display: flex;
- justify-content: center;
-  padding: 50px 20px;
-  margin: 40px 0;
-}
-.Div2Section2 {
-  background-color: rgba(178, 148, 206, 0);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 100vw;
-}
+  /*******************800PX***************/
 
-
-.DivText2 {
-  background-color: rgba(148, 206, 165, 0);
-  padding: 30px 0;
-  margin-bottom: 30px;
-  width: 500px;
-  
-}
-
-.DivText2 h2 {
-  font-size: 3.5rem;
-
- 
-}
-
-.DivText2 p {
-  font-size: 1.5rem;
-}
-
-.DivImgSection2 {
-  background-color: rgba(255, 255, 0, 0);
-  
-}
-
-
-/*****80px************************************/
-.Section3 {
-  background-color: rgba(255, 72, 0, 0);
-  display: flex;
- justify-content: center;
-  padding: 50px 20px;
- }
-
-
-.Div3Section3 {
-  background-color: rgba(178, 148, 206, 0);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap-reverse;
-  width: 100vw;
-
-}
-
-.DivLista{
-   margin-top: 30px;
-
-}
-
-.itensVantagens{
-  background-color: rgb(63, 63, 63); 
-  color: rgb(197, 197, 197);
-  font-size: 2rem;
-  list-style: none;
-
-  padding: 5px 20px;
-  text-align: left;
-  margin-bottom: 10px;
-
-}
-
-
- .itensVantagens:hover{
-   color: rgb(255, 255, 255);
-   background-color: rgb(46, 46, 46); 
+  .Section2 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    margin: 40px 0;
+  }
+  .Div2Section2 {
+    background-color: rgba(178, 148, 206, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vw;
   }
 
+  .DivText2 {
+    background-color: rgba(148, 206, 165, 0);
+    padding: 30px 0;
+    margin-bottom: 30px;
+    width: 500px;
+  }
 
-  .InfoFooter{
+  .DivText2 h2 {
+    font-size: 3.5rem;
+  }
+
+  .DivText2 p {
+    font-size: 1.5rem;
+  }
+
+  .DivImgSection2 {
+    background-color: rgba(255, 255, 0, 0);
+  }
+
+  /*****80px************************************/
+  .Section3 {
+    background-color: rgba(255, 72, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+
+  .Div3Section3 {
+    background-color: rgba(178, 148, 206, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    width: 100vw;
+  }
+
+  .DivLista {
+    margin-top: 30px;
+  }
+
+  .itensVantagens {
+    background-color: rgb(63, 63, 63);
+    color: rgb(197, 197, 197);
+    font-size: 2rem;
+    list-style: none;
+
+    padding: 5px 20px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .itensVantagens:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 46, 46);
+  }
+
+  .InfoFooter {
     color: white;
     text-align: center;
-      
-     }
-    
+  }
 }
