@@ -70,7 +70,6 @@ a {
 
 .BtnEntrar:hover {
   background-color: rgb(180, 0, 0);
-
 }
 /**********************SECTION 1************************/
 
@@ -113,11 +112,17 @@ a {
 }
 
 #Email {
+  padding: 10px;
+  font-size: 1rem;
   height: 50px;
   min-width: 400px;
   max-width: 500px;
 }
 
+
+::placeholder { 
+  color:    rgb(0, 0, 0);
+}
 /************MEDIA QUERY**********/
 
 /******* MIN WIDTH 400PX IPHONE, SMARTPHONE************/
@@ -180,12 +185,9 @@ a {
     height: 50px;
     margin-top: 20px;
     padding: 10px 0 10px;
-
   }
   .BtnVamosLa:hover {
     background-color: rgb(180, 0, 0);
-    
-
   }
 
   /***************************400px**************/
